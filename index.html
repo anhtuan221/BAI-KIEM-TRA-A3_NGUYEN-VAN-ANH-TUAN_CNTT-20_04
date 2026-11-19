@@ -51,7 +51,7 @@
         <div class="service-grid">
          
           <article class="card">
-            <img src="assets/images/bao-tri.png" alt="Minh họa gói cài đặt phần mềm học tập và văn phòng" class="card-img" />
+            <img src="assets/images/hoc-tap.png" alt="Minh họa gói cài đặt phần mềm học tập và văn phòng" class="card-img" />
             <span class="badge">Phổ biến</span>
             <h3>Gói 1: Học Tập & Văn Phòng</h3>
             <p class="price">50.000đ <span>/ lượt</span></p>
@@ -61,12 +61,12 @@
               <li>Trình đọc/chỉnh sửa file PDF cơ bản</li>
               <li>Công cụ giải nén tệp & trình duyệt web</li>
             </ul>
-            <a href="#lien-he" class="btn btn-primary btn-full">Chọn gói này</a>
+            <a href="#lien-he" data-package="goi-1" class="btn btn-primary btn-full">Chọn gói này</a>
           </article>
 
           
           <article class="card card-featured">
-            <img src="assets/images/lap trinh.png" alt="Minh họa gói cài đặt môi trường lập trình cơ bản" class="card-img" />
+            <img src="assets/images/lap-trinh.png" alt="Minh họa gói cài đặt môi trường lập trình cơ bản" class="card-img" />
             <span class="badge badge-accent">Dành cho SV IT</span>
             <h3>Gói 2: Môi Trường Lập Trình</h3>
             <p class="price">80.000đ <span>/ lượt</span></p>
@@ -76,7 +76,7 @@
               <li>Môi trường chạy Python / C++ / Node.js cơ bản</li>
               <li>Phần mềm máy ảo (VirtualBox / VMware)</li>
             </ul>
-            <a href="#lien-he" class="btn btn-primary btn-full">Chọn gói này</a>
+            <a href="#lien-he" data-package="goi-2" class="btn btn-primary btn-full">Chọn gói này</a>
           </article>
 
           
@@ -91,7 +91,7 @@
               <li>Dọn dẹp tệp rác & tắt ứng dụng chạy ngầm</li>
               <li>Kiểm tra kết nối Wi-Fi, máy in & sao lưu cơ bản</li>
             </ul>
-            <a href="#lien-he" class="btn btn-primary btn-full">Chọn gói này</a>
+            <a href="#lien-he" data-package="goi-3" class="btn btn-primary btn-full">Chọn gói này</a>
           </article>
         </div>
       </div>
@@ -162,6 +162,19 @@
       <p>&copy; 2026 Nguyễn Văn Anh Tuấn — Website Dịch Vụ Cài Đặt Phần Mềm Cơ Bản (Học phần FIT4014).</p>
     </div>
   </footer>
-
+<script>
+    // Tự động chọn đúng gói dịch vụ khi người dùng bấm nút "Chọn gói này"
+    document.querySelectorAll('[data-package]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        const selectedPackage = this.getAttribute('data-package');
+        const packageSelect = document.getElementById('package');
+        if (packageSelect) {
+          packageSelect.value = selectedPackage;
+        }
+      });
+    });
+  </script>
+</body>
+</html>
 </body>
 </html>
