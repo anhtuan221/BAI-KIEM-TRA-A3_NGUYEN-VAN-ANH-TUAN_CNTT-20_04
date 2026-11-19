@@ -57,4 +57,4 @@ assets/images/hoc-tap.png: Ảnh của Nguyen Phan Nam Anh trên Unsplash (https
 
 assets/images/lap-trinh.png: Ảnh của Ilnur trên Unsplash (https://unsplash.com/photos/laptop-screen-displaying-lines-of-code-sxK8RUCpqoQ).
 
-assets/images/bao-tri.png: Ảnh trên Unsplash (https://unsplash.com/photos/close-up-view-of-a-laptops-internal-components-and-fan-YunxbqyMGYo).
+assets/images/bao-tri.png: Ảnh của Zoshua Colah trên Unsplash (https://unsplash.com/photos/close-up-view-of-a-laptops-internal-components-and-fan-YunxbqyMGYo).
