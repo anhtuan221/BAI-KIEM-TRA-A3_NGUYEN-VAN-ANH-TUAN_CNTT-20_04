@@ -6,7 +6,7 @@ Website tĩnh (HTML5/CSS3) giới thiệu các gói dịch vụ cài đặt ph�
 ## 2. Demo
 - **URL GitHub Pages:** `https://anhtuan221.github.io/BAI-KIEM-TRA-A3_NGUYEN-VAN-ANH-TUAN_CNTT-20_04/
 - **Repository mã nguồn:** `https://github.com/anhtuan221/BAI-KIEM-TRA-A3_NGUYEN-VAN-ANH-TUAN_CNTT-20_04.git
-- **Phiên bản bàn giao:** `v8` (Commit: `[7a2a99b]`)
+- **Phiên bản bàn giao:** `v8` (Commit: `[5925b20]`)
 
 ## 3. Tính năng hiện có
 - Xem thông tin chi tiết, hình ảnh minh họa và mức phí tham khảo của 3 gói dịch vụ (Học tập & Văn phòng, Môi trường Lập trình, Bảo trì & Tối ưu máy).
