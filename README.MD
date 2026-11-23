@@ -24,7 +24,7 @@ Website tĩnh (HTML5/CSS3) giới thiệu các gói dịch vụ cài đặt ph�
 
 ## 5. Cấu trúc thư mục
 ```text
-dich-vu-cai-phan-mem/
+BAI-KIEM-TRA-A3_NGUYEN-VAN-ANH-TUAN_CNTT-20_04/
 ├── index.html                  # Trang nội dung chính và script chọn gói dịch vụ
 ├── css/
 │   └── style.css               # Tệp định dạng giao diện và quy tắc responsive
@@ -34,6 +34,10 @@ dich-vu-cai-phan-mem/
 │       ├── lap-trinh.png
 │       └── bao-tri.png
 ├── docs/
+│   ├── images/                 # Ảnh chụp màn hình minh chứng kiểm thử
+│   │   ├── dich vu.png
+│   │   ├── menu.png
+│   │   └── responsive.png
 │   ├── evidence-index.MD       # Bảng đối chiếu tiêu chí và minh chứng kiểm thử
 │   └── AI_LOG.MD               # Nhật ký khai báo việc sử dụng công cụ AI
 ├── README.MD                   # Tài liệu giới thiệu và hướng dẫn sử dụng dự án
